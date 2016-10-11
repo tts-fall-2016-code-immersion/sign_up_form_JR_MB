@@ -1,0 +1,138 @@
+*:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DDD;
+  color: #222;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  width: 600px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+
+.left {
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+}
+
+.right {
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  float: right;
+  right: 0;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+input {
+  border-top: none;
+  border-bottom: 1px solid;
+  border-left: none;
+  border-right: none;
+  border-color: #AAA;
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px;
+  height: 32px;
+  width: 220px;
+  font-weight: 400px;
+}
+
+input:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.sign-up-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background-color: #16A085;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 400px;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition-property: 0.1s ease;
+}
+
+.sign-up-button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.logmein {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+}
+
+.facebook {
+  background-color: #32508E;
+}
+
+.twitter {
+  background-color: #55ACEE;
+}
+
+.google {
+  background-color: #DD4B39;
+}
+
+.or {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 280px;
+  width: 40px;
+  height: 40px;
+  background-color: #DDD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
